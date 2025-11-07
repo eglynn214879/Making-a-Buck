@@ -43,7 +43,7 @@ Typical dependencies: `numpy`, `opencv-python`, `pandas`, `matplotlib`.
 python ground_mesh.py \
   --in_ply data/plot01.ply \
   --out_dir Work/plot01/slices \
-  --step_m 0.05
+  --step_m 0.0125
 ```
 
 ### 1️⃣ Circle detection

@@ -31,7 +31,7 @@ cd Making-a-Buck
 pip install -r requirements.txt
 ```
 
-Typical dependencies: `numpy`, `opencv-python`, `pandas`, `matplotlib`, `open3d`.
+Typical dependencies: `numpy`, `opencv-python`, `pandas`, `matplotlib`.
 
 ---
 

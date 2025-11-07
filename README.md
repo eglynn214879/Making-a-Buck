@@ -155,7 +155,7 @@ Work/
 
 If this code or workflow is useful in your research, please cite:
 
-> **Ethan Glynn (2025). *Making-a-Buck: Developing Dynamic Bucking Algorithms with LiDAR-Based 3D Point Clouds to Optimise Timber Profitability **
+> **Ethan Glynn (2025). *Making-a-Buck: Developing Dynamic Bucking Algorithms with LiDAR-Based 3D Point Clouds to Optimise Timber Profitability**
 > [https://github.com/ethanglynn/Making-a-Buck](https://github.com/ethanglynn/Making-a-Buck)
 
 ---

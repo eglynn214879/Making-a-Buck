@@ -1,0 +1,86 @@
+{
+  "slice_step_m": 0.3,
+  "tip_min_diam_m": 0.08,
+  "kerf_m": 0.01,
+  "products": [
+    {
+      "name": "Sawn_Grade_A",
+      "lengths_m": [
+        6.0,
+        5.4,
+        4.8,
+        4.2,
+        3.6,
+        3.0,
+        2.4
+      ],
+      "sed_min_m": 0.18,
+      "price_per_m3": 180
+    },
+    {
+      "name": "Sawn_Grade_B",
+      "lengths_m": [
+        4.8,
+        4.2,
+        3.6,
+        3.0,
+        2.4
+      ],
+      "sed_min_m": 0.16,
+      "price_per_m3": 140
+    },
+    {
+      "name": "Pulp",
+      "lengths_m": [
+        3.0,
+        2.7,
+        2.4
+      ],
+      "sed_min_m": 0.1,
+      "price_per_m3": 60
+    }
+  ],
+  "lidar": {
+    "sweep_caps": {
+      "Sawn_Grade_A": [
+        {
+          "thresh_m_per_m": 0.03,
+          "max_len_m": 4.8
+        },
+        {
+          "thresh_m_per_m": 0.05,
+          "max_len_m": 3.6
+        }
+      ],
+      "Sawn_Grade_B": [
+        {
+          "thresh_m_per_m": 0.05,
+          "max_len_m": 3.6
+        }
+      ],
+      "Pulp": []
+    },
+    "taper_penalty": {
+      "Sawn_Grade_A": {
+        "t0": 0.12,
+        "beta": 1.2
+      },
+      "Sawn_Grade_B": {
+        "t0": 0.15,
+        "beta": 0.6
+      },
+      "Pulp": {
+        "t0": 1.0,
+        "beta": 0.0
+      }
+    },
+    "confidence": {
+      "a_occ": 0.6,
+      "b_inliers_per": 0.4,
+      "K_inliers": 120.0,
+      "gamma_resid": 6.0,
+      "min_conf": 0.6,
+      "max_conf": 1.0
+    }
+  }
+}

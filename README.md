@@ -125,6 +125,12 @@ python eval_stems_vs_ground_truth.py --pred_csv stems_curved.csv --truth_csv sur
 python make_showcase_plots.py --stems_csv stems_curved.csv --out_dir plots
 ```
 
+🧪 Experimental / Legacy Scripts
+
+Files in Unused_or_Need_Tweaks/ contain early or alternate versions of some modules.
+They are provided for reference and reproducibility but may not be fully functional or up to date.
+Details about their intent and limitations are discussed in the accompanying report.
+
 ---
 
 ## 📁 Output Structure
